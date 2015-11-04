@@ -1,0 +1,17 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Driver {
+    
+    
+    public static void main(String[] args) { 
+        Thread t = new A();
+        t.start();
+        Runnable r = new B();
+        Thread t = new Thread(r);
+        t.start();
+    }
+    
+    /* ADD YOUR CODE HERE */
+    
+}

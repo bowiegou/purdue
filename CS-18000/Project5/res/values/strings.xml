@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeWalk</string>
+    <string name="server">Server</string>
+    <string name="client">Client</string>
+    <string name="submit">Submit</string>
+    <string name="match">Match</string>
+    <string name="start_over">Start Over</string>
+    <string name="default_host">128.211.195.226</string>
+    <string name="default_port">31428</string>
+    <string name="default_command">:FAKE_COMMAND</string>
+    <string name="host">Host</string>
+    <string name="port">Port</string>
+    <string name="name">Name</string>
+    <string name="default_name">""</string>
+    <string name="pref">Preferences</string>
+    <string name="x3">I am a volunteer. Don\'t match me with other volunteers</string>
+    <string name="x2">I am a requester. Match me with a volunteer only</string>
+    <string name="x1">I have no preferences of whom I will be matched up with</string>
+    <string name="from">From</string>
+    <string-array name="locations">
+        <item >CL50</item>
+        <item >EE</item>
+        <item >LWSN</item>
+        <item >PMU</item>
+        <item >PUSH</item>
+        <item >*</item>
+    </string-array>
+    <string-array name="locationsWithoutStar">
+        <item >CL50</item>
+        <item >EE</item>
+        <item >LWSN</item>
+        <item >PMU</item>
+        <item >PUSH</item>
+    </string-array>
+        <string name="to">To</string>
+        <string name="status">Status</string>
+</resources>

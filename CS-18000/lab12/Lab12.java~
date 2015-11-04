@@ -1,0 +1,38 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.io.File;
+public class Lab12 {
+    
+    public Lab12() { 
+        /* YOUR CONSTRUCTOR CODE HERE*/
+    }
+    
+    public static void main(String[] args) { 
+        
+    }
+    public static int power(int a, int b) {
+        if( b >= 0) {
+            return a*power(a,b-1);
+        }
+    }
+    public static int fileCount(String dir) {
+        File f = new File(dir);
+        String[] list = f.list();
+        int count = 1;
+        for(int i = 0; i <list.length; i++) {
+            if(!list[i].isDirectory()) {
+                count ++;
+            } else{
+                count += fileCOunt(".\\" + list[i]);
+                    
+            }
+        }
+        return count;
+        
+        
+    }
+    
+    /* ADD YOUR CODE HERE */
+    
+}

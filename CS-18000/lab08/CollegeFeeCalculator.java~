@@ -1,0 +1,17 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class CollegeFeeCalculator {
+    
+    public CollegeFeeCalculator() { 
+        /* YOUR CONSTRUCTOR CODE HERE*/
+    }
+    
+    public static void main(String[] args) { 
+        JOptionPane.showMessageDialog (null, "Welcome to CollegeFeeCalculator!",
+                                       "CollegeFeeCalculator", JOptionPane.INFORMATION_MESSAGE);
+    }
+    
+    /* ADD YOUR CODE HERE */
+    
+}

@@ -1,0 +1,102 @@
+/**
+ * CS 180 - Lab 03 - Selection Statements
+ * 
+ * 
+ * 
+ * @Yibo Gou <(gouy@purdue.edu)>
+ * 
+ * @815
+ *
+ * @Sept.16, 2014
+ */
+public class Person {
+    private String ID = "";
+    private int HDL = 0;
+    private int LDL = 0;
+    private int age = 0;
+    private int other = 0;
+/**
+ * Person Class Constructor: Creates a new instance of the person Class;
+ * initializes instance variables with the given arguments:
+ *
+ * @param ID - the person's ID
+ * @param age - the person's age
+ * @param LDL - the person's LDL level
+ * @param HDL - the person's HDL level
+ * @param other - the person's other lipids level
+ */ 
+    public Person(String ID,int age,int HDL,int LDL,String other) { 
+        this.ID = ID;
+        this.age = age;
+        this.HDL = HDL;
+        this.LDL = LDL;
+        this.other = other;
+    }
+    
+    public boolean isAdult(){
+        return age >= 18;
+    }
+    
+    public int getTotalCholesterol() {
+        return (HDL + LDL + other);
+    }
+    
+    public boolean hasGoodTotalCholesterol() {
+        if(this.isAdult()) {
+            return getTotalCholesterol() < 200;
+        }
+        else {
+            return getTotalCholesterol() < 170;
+        }
+    }
+    
+/**
+ * @return true if the LDL level is within the healthy range, false otherwise.
+ * 
+ * A healthy LDL level for an adult is less than or equal to 130 mg/dL.
+ * A healthy LDL level for a child is less than or equal to 110 mg/dL. 
+ */
+    public boolean hasGoodLDL() {
+        if(this.isAdult()) {
+            return getLDL() <= 130;
+        }
+        else {
+            return getLDL() <= 110;
+        }
+    }
+    
+    public boolean hasGoodHDL() {
+        return this.getHDL >= 40;
+    }
+    
+    public void printReport() {
+        System.out.println(this.getID() + "'s Report:");
+        System.out.println("Age:  " + this.getAge());
+        System.out.println("Total Cholesterol:  " + this.getTotalCholesterol() +
+                           " (" + (this.hasGoodTotalCholesterol() ? "Good" : 
+                                       "Bad") + ")");
+        System.out.println("LDL:  " + this.getLDL() +" (" + (this.hasGoodLDL() ? 
+                                                                 "Good" : "Bad")
+                               + ")");
+        System.out.println("HDL:  " + this.getHDL() +" (" + (this.hasGoodHDL() ? 
+                                                                 "Good" : "Bad")
+                               + ")");
+    }
+ //return values
+    public String getID(){
+        return ID;
+    }
+    public int getAge(){
+        return age;
+    }
+    public int getHDL(){
+        return HDL;
+    }
+    public int getLDL(){
+        return LDL;
+    }
+    public int getOther(){
+        return other;
+    }
+    
+}

@@ -1,0 +1,49 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class Evaluator {
+    Stack s;
+    public Evaluator() { 
+        s = new Stack();
+    }
+    
+    public static int evalutate(String a) {
+        String[] a = a.split(" ");
+        Integer value;
+        Integer first = new Integer();
+        Integer second = new Integer();
+        
+        for(int i = 0; i < a.length(); i ++) {
+            try{ 
+                value = Integer.parseInt(a[i]);
+                if(value != null){
+                    s.push(value);
+                }
+            }
+            catch(Exception e) {
+                second = s.pop();
+                first = s.pop();
+                if(a[i].equals("+")){
+                    s.push((Integer)(first + second));
+                } else if (a[i].equals("-")) {
+                    s.push((Integer)(first - second));
+                } else if( a[i].equals("*")) {
+                    s.push((Integer)(first * second));
+                } else if( a[i].equals("/")) {
+                    s.push((Integer)((double)first / second));
+                }
+                   
+            }
+            value = null;
+        }
+        return s.pop().intValue();
+        
+    }
+    public static void main(String[] args) { 
+        Evaluator ev = new Evaluator();
+    }
+    
+    /* ADD YOUR CODE HERE */
+    
+}

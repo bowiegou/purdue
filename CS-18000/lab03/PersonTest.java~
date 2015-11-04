@@ -1,0 +1,49 @@
+/**
+ * CS 180 - Lab 03 - PersonTest.java
+ * 
+ * 
+ * 
+ * @Yibo Gou <(gouy@purdue.edu)>
+ * 
+ * @815
+ *
+ * @Sept.16, 2014
+ */
+import junit.framework.TestCase;
+
+/**
+ * A JUnit test case class.
+ * Every method starting with the word "test" will be called when running
+ * the test with JUnit.
+ */
+private Person adult_badTC;
+private Person child_goodHDL;
+private Person adult_badLDL;
+
+public class PersonTest extends TestCase {
+    
+    /**
+     * A test method.
+     * (Replace "X" with a name describing the test.  You may write as
+     * many "testSomething" methods in this class as you wish, and each
+     * one will be called when running JUnit over this class.)
+     */
+    protected void setUp() throws Exception {
+    super.setUp();
+    // initialize test people
+    //Example
+    adult_badTC = new Person("0022212345",21,100,100,100);
+}
+    public void testGetTotalCholesterol() {
+        assertEquals(300, adult_badTC.getTotalChelesterol());
+    }
+    public void testHasGoodTotalCholesterol() {
+        assertFalse(adult_badTC.hasGoodTotalChelesterol());;
+    }
+    public void testHasGoodLDL() {
+        assertTure(adult_badTC.hasGoodLDL());
+    }
+    public void testGetTotalCholesterol() {
+        assertTrue(adult_badTC.hasGoodHDL());
+    }
+}

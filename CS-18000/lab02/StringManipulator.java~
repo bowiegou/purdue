@@ -1,0 +1,21 @@
+/**
+ * CS 180 - Lab 02 - StringManipulator
+ * 
+ * 
+ * 
+ * @Yibo Gou <(gouy@purdue.edu)>
+ * 
+ * @815
+ *
+ * @Sept.9, 2014
+ */
+public class StringManipulator {
+    
+    public Sting makeUserName(String fullName){
+        String rName = fullName.toLowerCase();
+        rName = rName.charAt(0).toString() + 
+            rName.subString( (rName.indexOf(' ')+1),rName.length -1);
+        return rName;
+    }
+    
+}
