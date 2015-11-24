@@ -1,0 +1,42 @@
+Final Version
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	deleted:    .local.git.out
+#	deleted:    .local.total.out
+#	deleted:    Makefile
+#	modified:   check-strfunc.sh
+#	deleted:    countwords
+#	deleted:    countwords.org
+#	deleted:    countwords.org.out
+#	deleted:    countwords.out
+#	deleted:    diff.out
+#	deleted:    isbalanced
+#	deleted:    isbalanced.org
+#	deleted:    isbalanced.org.out
+#	deleted:    isbalanced.out
+#	deleted:    mysort
+#	deleted:    mystring.o
+#	deleted:    none
+#	deleted:    test_bits
+#	deleted:    test_bits.org
+#	deleted:    test_bits.org.out
+#	deleted:    test_bits.out
+#	deleted:    test_mysort
+#	deleted:    test_mysort.org
+#	deleted:    test_mysort.org.out
+#	deleted:    test_mysort.out
+#	deleted:    test_mystring
+#	deleted:    test_mystring.org
+#	deleted:    test_mystring.org.out
+#	deleted:    test_mystring.out
+#	deleted:    test_slist
+#	deleted:    test_slist.org
+#	deleted:    test_slist.org.out
+#	deleted:    test_slist.out
+#	deleted:    testall
+#	deleted:    total.out
+#
+
+

@@ -1,0 +1,81 @@
+[master ccee180] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 18 insertions(+)
+ create mode 100644 test/.local.git.out
+ create mode 100644 test/.local.total.out
+ create mode 100644 test/total.out
+[master 684e770] 100 of 100
+ Committer: Yibo Gou <gouy@moore07.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 78 insertions(+), 9 deletions(-)
+ create mode 100644 .hello.c.swp
+ create mode 100644 add.o
+ create mode 100755 exp
+ create mode 100644 exp_short.o
+ create mode 100644 hello.c
+ create mode 100755 high-low
+[master 18de76d] 100 of 100
+ Committer: Yibo Gou <gouy@moore07.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 29 insertions(+)
+ create mode 100644 .high-low.c.swp
+[master 4c510f2] 60 of 100
+ Committer: Yibo Gou <gouy@moore07.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 29 insertions(+), 3 deletions(-)
+ delete mode 100644 .high-low.c.swp
+[master efb2292] 60 of 100
+ Committer: Yibo Gou <gouy@moore07.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 24 insertions(+)

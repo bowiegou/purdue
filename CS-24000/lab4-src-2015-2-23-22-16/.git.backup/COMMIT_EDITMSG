@@ -1,0 +1,31 @@
+Deleting executables to commit to public git
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	deleted:    .local.git.out
+#	deleted:    .local.total.out
+#	deleted:    check-array.sh
+#	deleted:    check-strfunc.sh
+#	deleted:    diff.out
+#	deleted:    mystring.o
+#	deleted:    none
+#	deleted:    ptr-simple
+#	deleted:    simple_list
+#	deleted:    test_array
+#	deleted:    test_array.org
+#	deleted:    test_array.org.out
+#	deleted:    test_array.out
+#	deleted:    test_linked_list
+#	deleted:    test_linked_list.org
+#	deleted:    test_linked_list.org.out
+#	deleted:    test_linked_list.out
+#	deleted:    test_mystring
+#	deleted:    test_mystring.org
+#	deleted:    test_mystring.org.out
+#	deleted:    test_mystring.out
+#	deleted:    testall
+#	deleted:    total.out
+#
+
+

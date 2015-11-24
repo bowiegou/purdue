@@ -1,0 +1,34 @@
+Final Version for public git
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	deleted:    .local.git.out
+#	deleted:    .local.total.out
+#	deleted:    HashTableVoidTest
+#	deleted:    HashTableVoidTest.org
+#	deleted:    IRCServer
+#	deleted:    IRCServer.org
+#	modified:   Makefile
+#	deleted:    TestIRCServer
+#	deleted:    diff.out
+#	deleted:    none
+#	deleted:    prog.org.out
+#	deleted:    prog.out
+#	deleted:    talk-server
+#	deleted:    talk-server.out
+#	modified:   test-server1.sh
+#	modified:   test-server10.sh
+#	modified:   test-server2.sh
+#	modified:   test-server3.sh
+#	modified:   test-server4.sh
+#	modified:   test-server5.sh
+#	modified:   test-server6.sh
+#	modified:   test-server7.sh
+#	modified:   test-server8.sh
+#	modified:   test-server9.sh
+#	deleted:    testall
+#	deleted:    total.out
+#
+
+
